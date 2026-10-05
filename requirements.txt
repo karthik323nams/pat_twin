@@ -1,0 +1,4 @@
+numpy
+opencv-python
+PyQt6
+# Optional for neural verifier export: onnx, torch

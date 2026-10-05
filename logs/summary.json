@@ -1,0 +1,26 @@
+{
+  "frames": 450,
+  "sim_duration_s": 15.0,
+  "acquisition_time_s": 0.03333333333333333,
+  "reacquisition_time_mean_s": null,
+  "n_dropouts": 0,
+  "lock_retention_pct": 100.0,
+  "target_loss_pct": 0.0,
+  "centroid_err_mean_px": 0.800425016993488,
+  "centroid_err_rmse_px": 0.8528585876112619,
+  "pointing_err_coarse_mean_px": 12.916118318596912,
+  "pointing_err_fine_mean_px": 0.801875750432083,
+  "pointing_err_fine_max_px": 1.5253506326184167,
+  "optical_pointing_loss_mean_db": 0.019220489977728288,
+  "optical_link_margin_mean_db": 6.980779510022272,
+  "optical_link_availability_pct": 100.0,
+  "imm_model_final_probs": {
+    "CV": 0.4,
+    "CA": 0.047,
+    "CT": 0.553
+  },
+  "stabilizer_active_pct": 0.0,
+  "processing_fps": 586.7,
+  "end_to_end_fps": 461.4,
+  "config": "video"
+}

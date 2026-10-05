@@ -1,0 +1,61 @@
+{
+  "frames": 450,
+  "sim_duration_s": 15.0,
+  "acquisition_time_s": 0.8,
+  "reacquisition_time_mean_s": null,
+  "n_dropouts": 0,
+  "lock_retention_pct": 100.0,
+  "target_loss_pct": 0.0,
+  "centroid_err_mean_px": 0.8827506358824404,
+  "centroid_err_rmse_px": 1.1391844357851237,
+  "pointing_err_coarse_mean_px": 7.339157038173157,
+  "pointing_err_fine_mean_px": 0.8809870414628626,
+  "pointing_err_fine_max_px": 7.722608647345043,
+  "optical_pointing_loss_mean_db": 0.03469483568075118,
+  "optical_link_margin_mean_db": -9.534694835680751,
+  "optical_link_availability_pct": 0.0,
+  "imm_model_final_probs": {
+    "CV": 0.419,
+    "CA": 0.263,
+    "CT": 0.319
+  },
+  "stabilizer_active_pct": 0.0,
+  "processing_fps": 523.2,
+  "end_to_end_fps": 69.2,
+  "config": {
+    "screen": 2000,
+    "res": [
+      640,
+      480
+    ],
+    "fov": [
+      4.0,
+      3.0
+    ],
+    "fps": 30,
+    "tsize": 10,
+    "motion": "spiral",
+    "speed": 250.0,
+    "max_rate": 5.0,
+    "noise": [
+      "sp",
+      "gauss",
+      "poisson"
+    ],
+    "sigma": 20,
+    "sp_frac": 0.1,
+    "jitter": 8,
+    "platform": 5.0,
+    "weather": "fog",
+    "seed": 1,
+    "duration": 15,
+    "stars": 3000,
+    "wide_bin": 8,
+    "wide_cue": true,
+    "stabilize": false,
+    "use_imm": true,
+    "use_ai": true,
+    "use_fsm": true,
+    "decoys": 0
+  }
+}
